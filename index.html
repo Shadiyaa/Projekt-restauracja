@@ -13,19 +13,49 @@
     <link rel="stylesheet" href="/css/mainBanner.css">
     <link rel="stylesheet" href="/css/container.css">
     <link rel="stylesheet" href="/css/aboutUs.css">
+    <link rel="stylesheet" href="/css/mainNavigation.css">
 </head>
 
 <body>
+    <nav class="mainNavigation">
+        <div class="mainNavigationInner">
+            <div class="mainNavigationLogo">
+                <a href="#" class="mainNavigationLogoLink">
+                    <img src="/images/logo.svg" alt="logo" class="mainNavigationLogoImage"> Polskie smaki
+                </a>
+            </div>
+            <ul class="mainNavigationMenu">
+                <li class="mainNavigationMenuItem"><a href="#" class="mainNavigationLink">Home</a></li>
+                <li class="mainNavigationMenuItem"><a href="#aboutUs" class="mainNavigationLink">O nas</a></li>
+                <li class="mainNavigationMenuItem"><a href="#menu" class="mainNavigationLink">Menu</a></li>
+                <li class="mainNavigationMenuItem"><a href="#gallery" class="mainNavigationLink">Galeria</a></li>
+                <li class="mainNavigationMenuItem"><a href="#contact" class="mainNavigationLink">Kontakt</a></li>
+                <li class="mainNavigationMenuItem"><a href="#map" class="mainNavigationLink">jak dojechać</a></li>
+                <li class="mainNavigationMenuItem"><a href="https://instagram.com" target="_blank"
+                        class="mainNavigationLink"><img src="/images/icons/social/instagram.svg" alt="instagram"
+                            class="mainNavigationSocialIcon"></a></li>
+                <li class="mainNavigationMenuItem"><a href="https://facebook.com" target="_blank"
+                        class="mainNavigationLink"><img src="/images/icons/social/facebook.svg" alt="facebook"
+                            class="mainNavigationSocialIcon"></a>
+                </li>
+            </ul>
+            <button class="mainNavigationButton">
+                <img src="/images/icons/navigation.svg" alt="otwórz/zamknij nawigację"
+                    class="mainNavigationButtonImage">
+            </button>
+        </div>
+    </nav>
+
     <section class="mainBanner">
         <a href="#aboutUs" class="mainBannerBtn">
             Poznaj nas lepiej
         </a>
     </section>
 
-    <div class="container">
+    <div class="container" id="aboutUs">
         <section class="aboutUs">
             <div class="aboutUsText">
-            <h3 class="aboutUsHeader">Jesteśmy nie tylko restauracją</h3>
+                <h3 class="aboutUsHeader">Jesteśmy nie tylko restauracją</h3>
                 <p class="aboutUsParagraph">Tworzymy zespół ludzi, których pasją jest dbanie o każdy detal, który składa
                     się
                     na wyjątkowy wieczór spędzony u nas.Nasi kucharze kreują dania, nad których recepturą pracowali
@@ -40,6 +70,7 @@
             <img class="aboutUsImage" src="/images/about-us.jpg" alt="">
         </section>
     </div>
+    <script src="/script.js"></script>
 </body>
 
 </html>

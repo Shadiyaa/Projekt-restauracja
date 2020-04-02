@@ -9,6 +9,7 @@
     <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap&subset=latin-ext"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fea005d869.js" crossorigin="anonymous"></script>
     <link rel=" stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/mainBanner.css">
     <link rel="stylesheet" href="/css/container.css">
@@ -17,6 +18,7 @@
     <link rel="stylesheet" href="/css/bookmark.css">
     <link rel="stylesheet" href="/css/menu.css">
     <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/contact.css">
 </head>
 
 <body>
@@ -347,6 +349,35 @@
         <h2 class="bookmarkHeader">Kontakt</h2>
         <p class="bookmarkDescription">Porozmawiaj z nami lub zarezerwuj stolik</p>
     </section>
+
+    <form class="contactForm">
+        <div class="container container--smaller">
+            <div class="contactFormInfo">
+                <div class="contactFormInfoItem">
+                    <img src="/images/icons/gmail.svg" alt="email" class="contactFormInfoIcon">
+                    <a href="mailto:kontakt@restauracja.pl" class="contactFormInfoLink">kontakt@restauracja.pl</a>
+                </div>
+                <div class="contactFormInfoItem">
+                    <img src="/images/icons/phone.svg" alt="telefon" class="contactFormInfoIcon">
+                    <a href="tel:3020390988" class="contactFormInfoLink">302 039 0988</a>
+                </div>
+            </div>
+
+            <p class="contactFormContent">Jeśli nie znalazłeś na naszej stronie informacji, których potrzebujesz,<br>
+                wyślij formularz kontaktowy lub
+                zadzwoń.<br> Chętnie z Tobą porozmawiamy i odpowiemy na wszystkie pytania.</p>
+
+            <div class="contactFormFields">
+                <input name="name" class="contactFormField" required placeholder="Imię i nazwisko">
+                <input name="email" type="email" class="contactFormField" required placeholder="Adres e-mail">
+                <textarea placeholder="Treść wiadomości" class="contactFormField contactFormField--fullRow"
+                    name="content" required rows="10"></textarea>
+            </div>
+
+            <button class="contactFormSubmitButton">Wyślij</button>
+        </div>
+    </form>
+
     <section class="bookmark bookmark--map" id="map">
         <h2 class="bookmarkHeader">jak dojechać</h2>
         <p class="bookmarkDescription">Łatwo nas znajdziesz</p>
